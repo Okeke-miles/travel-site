@@ -1,0 +1,219 @@
+*,
+*::before,
+*::after{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFFFFF;
+    font-family: verdana;
+}
+
+.header__style{
+    height: 10vh;
+    display: flex;
+    background-color: #FFFFFF;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+}
+
+.header__link:hover{
+    text-decoration: underline;
+}
+
+.header__fixed{
+    width: 100%;
+    margin: auto;
+    margin-bottom: 11vh
+}
+
+.nav__home, .nav__hawaii, .nav__iceland, .nav__greece {
+    border-bottom: 0.2rem solid #DB7A4E;
+    }
+
+.header__flex{
+    display: flex;
+}
+
+.header__list{
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav{
+    display: flex;
+    justify-content: space-around;
+    margin-right: 5rem;
+}
+.nav__item{
+    list-style-type: none;
+    margin: 1rem;
+}
+.header__link, .logo__link{
+    text-decoration: none;
+}
+a:visited{
+    color: #335576;
+}
+.header__name, .heroimage__header, .slogan, .logo__link:visited{
+    color: #335576
+}
+
+.heroimage__title{
+    font-size: 4rem;
+    color: white;
+    padding: 5rem
+}
+
+.hawaii-heroimage__section{
+    background: url(../Assets/Images/hawaii.jpg) center no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.iceland-heroimage__section{
+    background: url(../Assets/Images/iceland.jpg) center no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.greece-heroimage__section{
+    background: url(../Assets/Images/greece.jpg) center no-repeat;
+    background-size: cover;
+    max-width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.card__section{
+    width: 90%;
+    margin: 0 auto;
+}
+
+.header__name{
+    margin-left: 5rem;
+}
+
+.card__friday{
+    width: 15vw;
+    height: 45vh;
+    border-radius: 0.313rem;
+    background-color: white;
+    background-size: 100% 100%;
+    box-shadow: rgba(0, 4, 4, 0.25);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 1.2rem;
+    margin: 1.2rem;
+    text-align: center;
+    position: relative;
+}
+
+.card__saturday{
+    width: 15vw;
+    height: 45vh;
+    border-radius: 0.313rem;
+    background-color: white;
+    background-size: 100% 100%;
+    box-shadow: rgba(0, 4, 4, 0.25);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 1.2rem;
+    margin: 1.2rem;
+    text-align: center;
+    position: relative;
+}
+.card__sunday{
+    width: 15vw;
+    height: 45vh;
+    border-radius: 0.313rem;
+    background-color: white;
+    background-size: 100% 100%;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.5);
+    border: 1px solid rgba(0, 0, 0, 0.5);
+    padding: 1.2rem;
+    margin: 1.2rem;
+    text-align: center;
+    position: relative;
+}
+.card-day{
+    font-weight: bold;
+    border-bottom: 0.125rem solid black;
+    margin-bottom: 3rem;
+}
+.card-day__list-item{
+    background-color:#FEFAF5;
+    margin-bottom: 2rem;
+}
+
+.card-day__list{
+    list-style-type: none;
+}
+
+.card__styling{
+    display: flex;
+    justify-content: center;
+}
+
+.media__facebook--icon, .media__instagram--icon, .media__twitter--icon{
+    width: 3vh;
+    height: 3vh;
+    margin-right: 1rem;
+}
+
+.footer{
+    background-color: #FEFAF5;
+    color:#335576;
+    display: flex;
+    height: 20vh
+}
+.footer__contact{
+    display: flex;
+    flex-direction: column;
+}
+.footer__style{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto
+}
+
+.hours__flexcontainer{
+   display: flex;
+}
+
+.days__optn, .email__heading{
+    color: #DB7A4E;
+    font-size: 0.5rem;
+}
+.contact__email, .hours__optn{
+    font-size: 0.9rem;
+}
+.hours__optn{
+    margin-right: 1.5rem;
+}
+
+.footer__hours, .footer__media{
+    margin-left: -12rem;
+}
+
+.contact__style, .hours{
+    margin-bottom: 1rem;
+}
+.email__heading, .days__optn{
+    margin-bottom: 0.5rem;
+}
+
+.media{
+    margin-bottom: 1.5rem;
+    margin-right: 7rem
+}
+
+
+
+
